@@ -1,0 +1,35 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 417 ciObject found
+ciMethod java/lang/invoke/MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle linkToVirtual (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle invokeBasic (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle invokeBasic ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle linkToSpecial (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle invokeBasic (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciInstanceKlass java/lang/invoke/BoundMethodHandle$Species_LL 1 1 77 1 7 1 7 1 1 1 1 1 1 1 1 1 1 12 10 12 9 12 9 1 1 12 9 1 1 1 1 12 10 1 1 1 1 1 100 1 7 1 1 12 10 1 1 12 10 1 7 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 1
+ciInstanceKlass java/lang/invoke/BoundMethodHandle$Species_L3 1 1 80 1 7 1 7 1 1 1 1 1 1 1 1 1 1 1 12 10 12 9 12 9 12 9 1 1 12 9 1 1 1 1 12 10 1 1 1 1 1 100 1 7 1 1 12 10 1 1 12 10 1 7 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 1
+ciInstanceKlass java/lang/invoke/BoundMethodHandle$Species_L4 1 1 83 1 7 1 7 1 1 1 1 1 1 1 1 1 1 1 1 12 10 12 9 12 9 12 9 12 9 1 1 12 9 1 1 1 1 12 10 1 1 1 1 1 100 1 100 1 1 12 10 1 1 12 10 1 100 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 12 10 1 1 1 1
+ciMethod java/lang/Object <init> ()V 189 13 1 0 -1
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 189 13 1 0 -1
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 189 13 1 0 -1
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$reinvoker
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$BMH

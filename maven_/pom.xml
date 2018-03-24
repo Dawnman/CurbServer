@@ -1,0 +1,190 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>us.curb</groupId>
+  <artifactId>maven_</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>maven_ Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties> 
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<spring.version>4.3.4.RELEASE</spring.version>
+		<commons-collections-version>1.0</commons-collections-version>
+		<commons-fileupload-version>1.2.2</commons-fileupload-version>
+		<org.apache.commons-version>3.1</org.apache.commons-version>
+		<commons-codec-version>1.6</commons-codec-version>
+		<jackson-mapper-asl-version>1.9.12</jackson-mapper-asl-version>
+		<jackson-core-asl-version>1.9.12</jackson-core-asl-version>
+		<jersey.version>1.9.12</jersey.version>
+		<junit.version>4.12</junit.version>
+		<net.fckeditor.version>2.6</net.fckeditor.version>
+		<commons-dbcp.version>1.2.2</commons-dbcp.version> 
+		<commons-pool.version>1.5.4</commons-pool.version>
+		<mysql.version>5.1.25</mysql.version>
+		<webmagic.version>0.7.3</webmagic.version>
+		<jsonlib.version>2.4</jsonlib.version>
+	</properties>
+  <dependencies>
+  <dependency>
+    <groupId>us.codecraft</groupId>
+    <artifactId>webmagic-core</artifactId>
+    <version>${webmagic.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>us.codecraft</groupId>
+    <artifactId>webmagic-extension</artifactId>
+    <version>${webmagic.version}</version>
+  </dependency>
+  <dependency>    
+    <groupId>net.sf.json-lib</groupId>    
+    <artifactId>json-lib</artifactId>    
+    <version>${jsonlib.version}</version>    
+    <classifier>jdk15</classifier>    
+  </dependency>
+
+  <dependency>
+     <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>  
+      <version>2.5.4</version>
+   </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.5.4</version>
+    </dependency> 
+    <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-annotations</artifactId>
+    <version>2.5.0</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.9.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.2</version>
+</dependency>
+<dependency>  
+        <groupId>commons-logging</groupId>  
+        <artifactId>commons-logging</artifactId>  
+        <version>1.1.1</version>  
+        </dependency>  
+          
+        <dependency>  
+        <groupId>commons-lang</groupId>  
+        <artifactId>commons-lang</artifactId>  
+        <version>2.1</version>  
+        </dependency>  
+          
+        <dependency>
+    <groupId>net.sf.ezmorph</groupId>
+    <artifactId>ezmorph</artifactId>
+    <version>1.0.6</version>
+</dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-test</artifactId>
+    <version>${spring.version}</version>
+    <scope>test</scope>
+</dependency>
+    <!-- 引入数据源包 -->
+    <dependency>
+      <groupId>commons-dbcp</groupId>
+      <artifactId>commons-dbcp</artifactId>
+      <version>${commons-dbcp.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-pool</groupId>
+      <artifactId>commons-pool</artifactId>
+      <version>${commons-pool.version}</version>
+    </dependency>
+    <dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.version}</version>
+	</dependency>
+    <!-- 引入mybatis核心包 -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.2.2</version>
+		</dependency>
+
+		<!-- 引入spring集成mybatis的包 -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+		<!-- servlet的依赖 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<!-- scope:compile,test,provided,system,runtime -->  
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+  </dependencies>
+  
+  <build> 
+    <finalName>maven_</finalName>
+    <plugins>
+    	<plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+         	<artifactId>tomcat7-maven-plugin</artifactId>
+          	<version>2.2</version>
+			<configuration>
+				<port>8080</port>
+				<path>/</path>
+				<uriEncoding>UTF-8</uriEncoding>
+			</configuration>
+				
+			</plugin>
+    </plugins>
+    
+  </build>
+</project>
